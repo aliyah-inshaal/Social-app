@@ -1,6 +1,6 @@
 import "./topbar.css";
 import { Search, Person, Chat, Notifications } from "@mui/icons-material";
-import { Link } from "react-router-dom";  // Import Link for navigation
+import { Link } from "react-router-dom"; 
 
 export default function Topbar() {
   return (
@@ -16,8 +16,8 @@ export default function Topbar() {
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
-          <Link to="/" className="topbarLink">Home</Link>   {/* Link to Home page */}
-          <Link to="/profile" className="topbarLink">Profile</Link>  {/* Link to Profile page */}
+          <Link to="/" className="topbarLink">Home</Link>
+          <Link to="/profile" className="topbarLink">Profile</Link>
         </div>
         <div className="topbarIcons">
           <div className="topbarIconItem">

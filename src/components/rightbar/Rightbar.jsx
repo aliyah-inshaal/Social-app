@@ -1,11 +1,10 @@
 import "./rightbar.css";
 import { Users } from "../../dummyData";
 import Online from "../online/Online";
-import { useLocation } from "react-router-dom";  // Import useLocation for detecting the route
+import { useLocation } from "react-router-dom";
 
 export default function Rightbar() {
   
-  // Hook to get current location
   const location = useLocation();
 
   const HomeRightBar = () => {
@@ -46,12 +45,10 @@ export default function Rightbar() {
         </div>
         <h4 className="rightBarTitle">User Friends</h4>
         <div className="rightbarFollowings">
-          {/* User Friends Section */}
           <div className="rightbarFollowing">
             <img src="assets/person/8.jpeg" alt="" className="rightbarFollowingImg" />
             <span className="rightbarFollowingName">Anousha</span>
           </div>
-          {/* Add more friends here */}
         </div>
       </>
     );
